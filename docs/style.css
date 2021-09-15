@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(0, 0%, 95%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.container {
+  display: flex;
+  width: 1440px;
+  height: 650px;
+}
+
+.icone-box {
+  margin: 50px;
+}
+
+.title-box {
+  color: white;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0px 50px 50px 50px;
+}
+
+.text-box {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0px 50px 50px 50px;
+}
+
+.sedans-box {
+  background: hsl(31, 77%, 52%);
+  border-radius: 20px 0px 0px 20px;
+}
+
+.sedans-box a {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs-box {
+  background: hsl(184, 100%, 22%);
+}
+
+.suvs-box a {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury-box {
+  background: hsl(179, 100%, 13%);
+  border-radius: 0px 20px 20px 0px;
+}
+
+.luxury-box a {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn-box {
+  margin: 200px 0px 50px 50px;
+}
+.btn-learn {
+  border: none;
+  background: white;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 20px 55px;
+  border-radius: 30px;
+}
+
+.btn-learn:hover {
+  border: solid white;
+  background: none;
+  color: white;
+}
+
+/* FONT CSS
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+ */
+
+@media only screen and (max-width: 1440px) {
+  .container {
+    width: 1050px;
+    height: 600px;
+    margin-top: auto;
+  }
+
+  .btn-box {
+    display: flex;
+    margin: 100px 0px 0px 50px;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    display: block;
+    width: 600px;
+  }
+
+  .sedans-box {
+    border-radius: 20px 20px 0px 0px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .luxury-box {
+    border-radius: 0px 0px 20px 20px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .btn-box {
+    display: flex;
+    margin: 100px 0px 0px 50px;
+    padding-bottom: 20px;
+  }
+}
